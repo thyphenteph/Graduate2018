@@ -21,7 +21,7 @@ public class ToyGenerator : MonoBehaviour {
 		//目的刺激有無
 		if (Random.Range(0.0f, 1.0f) >= 0.5) exist = true;
 		else exist = false;
-
+		
 
 		//目的刺激生成
 		Vector3 targetPos = new Vector3(
