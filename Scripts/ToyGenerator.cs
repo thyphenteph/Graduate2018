@@ -46,7 +46,7 @@ public class ToyGenerator : MonoBehaviour {
 			int type = Random.Range(0, disturb.Length);
 
 			Instantiate(disturb[type], disturbPos, Quaternion.Euler(randEuler), toys);
-			;
+			
 		}
 
 	}
