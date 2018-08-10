@@ -26,7 +26,7 @@ public class ToyGenerator : MonoBehaviour {
 		//目的刺激生成
 		Vector3 targetPos = new Vector3(
 			Random.Range(-insArea.x, insArea.x),
-			1,
+			0.1f,
 			Random.Range(-insArea.z, insArea.z))
 			+ transform.position;
 		Vector3 randEuler = new Vector3(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360));
@@ -38,7 +38,7 @@ public class ToyGenerator : MonoBehaviour {
 		for (int i = 0; i < objectNum; i++) {
 			Vector3 disturbPos = new Vector3(
 				Random.Range(-insArea.x, insArea.x),
-				1,
+				0.1f,
 				Random.Range(-insArea.z, insArea.z))
 				+ transform.position;
 			randEuler = new Vector3(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360));
